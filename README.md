@@ -3,7 +3,7 @@
 Northeastern Spring 2022
 
 ## Project Description
-Rentronics is a Web Application that enables users to rent and lease electronics in their region. Best Buy API was used to get product information.
+Rentronics is a Web Application that enables users to rent and lease electronics in their region.  
 
 []()
 
@@ -28,6 +28,10 @@ Rentronics is a Web Application that enables users to rent and lease electronics
 - React
 - Redux
 - Node.js
+
+## API 
+
+Best Buy API was used to get product information.
 
 ## Server
 [https://github.com/hkimkim/rentronics-server](https://github.com/hkimkim/rentronics-server)
