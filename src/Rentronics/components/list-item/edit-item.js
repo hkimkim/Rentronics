@@ -1,10 +1,10 @@
 import { useNavigate}  from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import * as service from '../services/best-buy-api-service.js'
-import * as itemService from '../../../Rentronics/services/view-item-services.js'
-import * as productService from '../services/product-service.js'
-import * as featuresService from '../services/features-service.js'
+import * as service from '../../services/best-buy-api-service.js'
+import * as itemService from '../../services/view-item-services.js'
+import * as productService from '../../services/product-service.js'
+import * as featuresService from '../../services/features-service.js'
 
 import { useParams } from 'react-router';
 

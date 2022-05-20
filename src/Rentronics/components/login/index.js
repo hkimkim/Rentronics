@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import * as service from '../services/auth-service'
+import * as service from '../../services/auth-service'
 
 const Login = () => {
 

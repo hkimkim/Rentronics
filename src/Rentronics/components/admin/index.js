@@ -2,8 +2,8 @@ import React from 'react'
 import { useState, useEffect } from "react";
 import {useSelector} from "react-redux";
 import {useNavigate} from "react-router-dom";
-import * as authService from "../services/auth-service"
-import * as service from "../services/user-service.js";
+import * as authService from "../../services/auth-service.js"
+import * as service from "../../services/user-service.js";
 import { useDispatch } from "react-redux";
 
 

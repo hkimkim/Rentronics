@@ -2,7 +2,7 @@ import "./profile.css";
 import { useEffect, useState } from 'react'
 import Reviews from "../review";
 import {Link, useNavigate} from "react-router-dom";
-import * as profileService from "../../services/profile-service"
+import * as profileService from "../../../services/profile-service"
 import Wishlist from "../wishlist";
 import Orders from "../review/orders";
 import {useSelector, useDispatch} from "react-redux";

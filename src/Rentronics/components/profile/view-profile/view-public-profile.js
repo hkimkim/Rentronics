@@ -2,11 +2,11 @@ import "./profile.css";
 import { useEffect, useState } from 'react'
 import Reviews from "../review";
 import {Link, useNavigate, useParams} from "react-router-dom";
-import * as service from "../../services/user-service"
-import * as profileService from "../../services/profile-service"
+import * as service from "../../../services/user-service"
+import * as profileService from "../../../services/profile-service"
 // import ListedItems from "../listed-items";
 import Wishlist from "../wishlist";
-import * as authService from "../../services/auth-service";
+import * as authService from "../../../services/auth-service";
 import {useSelector, useDispatch} from "react-redux";
 import Orders from "../review/orders";
 import ReviewList from "../review/reviewList";

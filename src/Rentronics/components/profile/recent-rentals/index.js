@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {Link} from "react-router-dom";
-import * as profileService from "../../services/profile-service"
+import * as profileService from "../../../services/profile-service"
 import { useDispatch, useSelector } from "react-redux";
 
 const RecentRentals = ({rental, date, userID}) => {

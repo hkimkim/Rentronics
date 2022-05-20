@@ -2,8 +2,8 @@ import "./edit-profile.css";
 import "../view-profile/profile.css";
 import {useState, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
-import * as service from '../../services/user-service'
-import * as authService from '../../services/auth-service'
+import * as service from '../../../services/user-service'
+import * as authService from '../../../services/auth-service'
 import {useSelector, useDispatch} from "react-redux";
 
 const EditProfile = () => {

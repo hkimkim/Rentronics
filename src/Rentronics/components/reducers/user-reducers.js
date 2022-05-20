@@ -1,5 +1,5 @@
 // import RegisteredUser from "../../data/registered-users.json"
-import { FIND_ALL_USERS, FIND_USER_BY_ID, FIND_USER_BY_EMAIL, CREATE_USER, DELETE_USER, UPDATE_USER } from "../actions/users-action";
+import { FIND_ALL_USERS, FIND_USER_BY_ID, FIND_USER_BY_EMAIL, CREATE_USER, DELETE_USER, UPDATE_USER } from "../../actions/users-action";
 
 const userReducer = (state = null, action) => {
     switch (action.type) {

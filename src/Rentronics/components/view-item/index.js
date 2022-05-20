@@ -9,7 +9,7 @@ import {
     getProductPageData
 } from "../../actions/view-item-actions";
 import Rating from "react-rating";
-import * as service from '../services/best-buy-api-service.js'
+import * as service from '../../services/best-buy-api-service.js'
 
 const ViewItem = () => {
     const dispatch = useDispatch();

@@ -1,7 +1,7 @@
 import {Link, useNavigate} from "react-router-dom";
 import {useState, useRef} from "react";
 import {useDispatch} from "react-redux";
-import * as service from '../services/auth-service'
+import * as service from '../../services/auth-service'
 
 const Register = () => {
     const email_regex = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;

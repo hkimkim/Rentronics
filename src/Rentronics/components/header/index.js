@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import {Link} from "react-router-dom";
 import {useSelector, useDispatch} from "react-redux";
 import { useNavigate } from "react-router-dom";
-import * as authService from "../services/auth-service"
+import * as authService from "../../services/auth-service"
 
 const Header = () => {
     let loggedIn = useSelector(state => state.loggedIn);
