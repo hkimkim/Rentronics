@@ -5,7 +5,7 @@ Northeastern Spring 2022
 ## Project Description
 Rentronics is a Web Application that enables users to rent and lease electronics in their region.  
 
-[]()
+[https://rentronics.netlify.app/](https://rentronics.netlify.app/)
 
 ## Collaborators
 
@@ -29,7 +29,7 @@ Rentronics is a Web Application that enables users to rent and lease electronics
 - Redux
 - Node.js
 
-## API 
+## External API 
 
 Best Buy API was used to get product information.
 
