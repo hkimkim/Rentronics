@@ -5,8 +5,6 @@ Northeastern Spring 2022
 ## Project Description
 Rentronics is a Web Application that enables users to rent and lease electronics in their region.  
 
-[https://rentronics.netlify.app/](https://rentronics.netlify.app/)
-
 ## Collaborators
 
 [Jinesh Mehta](https://github.com/mehtajinesh)  
